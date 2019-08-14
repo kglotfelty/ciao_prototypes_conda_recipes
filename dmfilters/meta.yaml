@@ -1,0 +1,15 @@
+package:
+    name: dmfilters
+    version: 0.0.1
+
+source:
+    git_url: https://github.com/kglotfelty/dmfilters.git
+
+requirements:
+    build:
+      - ciao
+      
+about:
+    home: http://hea-www.cfa.harvard.edu/~kjg/kciao
+    license: Public
+    summary: 'A collection of statistics functions used for filtering'

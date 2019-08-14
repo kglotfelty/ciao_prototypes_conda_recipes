@@ -1,0 +1,15 @@
+package:
+    name: dmimgio
+    version: 0.0.1
+
+source:
+    git_url: https://github.com/kglotfelty/dmimgio.git
+
+requirements:
+    build:
+      - ciao
+      
+about:
+    home: http://hea-www.cfa.harvard.edu/~kjg/kciao
+    license: Public
+    summary: 'Convert a stack of parameter files to a table'

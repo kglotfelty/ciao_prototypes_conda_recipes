@@ -1,0 +1,21 @@
+package:
+    name: zciao
+    version: 0.0.1
+    
+requirements:
+    run:
+        - ciao
+        - dmimggrad
+        - dmimgtess
+        - dmmaskstat
+        - dmradar
+        - dmscopy
+        - pars2tab
+        - resample_image
+
+about:
+    home: http://hea-www.cfa.harvard.edu/~kjg/kciao
+    license: Public
+    summary: "My collection of extra CIAO tools and prototypes"
+
+

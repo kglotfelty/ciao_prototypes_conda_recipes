@@ -1,0 +1,22 @@
+package:
+    name: dmimggrad
+    version: 0.0.1
+
+source:
+    git_url: https://github.com/kglotfelty/dmimggrad.git
+
+requirements:
+    build:
+      - ciao
+      - dmimgio
+
+    run:
+      - ciao
+      - cfitsio
+      - readline
+      - ncurses
+      
+about:
+    home: http://hea-www.cfa.harvard.edu/~kjg/kciao
+    license: Public
+    summary: CIAO tool to estimates the image gradients.
