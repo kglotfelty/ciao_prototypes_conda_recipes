@@ -42,7 +42,15 @@ conda build --output-folder `pwd`/Out \
 
 conda index Out
 
-cipt ocat AdaptiveBin statmap ellipse_model TemperatureMap ColorColor
+for d in emodel cipt colorcolor qocat statmap adaptivebin temperaturemap
+do 
+  conda build --output-folder ${outdir} \
+    -c ${ciaourl}/${ciaover} \
+    -c file://${outdir} \
+    $d
+done
+
+conda index Out
 
 
 ###conda remove -y -n ciao-4.12b1a pars2tab dmimgio resample_image

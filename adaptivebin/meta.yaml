@@ -1,0 +1,18 @@
+package:
+    name: adaptivebin
+    version: 0.0.1
+
+source:
+    git_url: https://github.com/kglotfelty/AdaptiveBin
+
+requirements:
+    build:
+      - ciao
+
+    run:
+      - ciao
+      
+about:
+    home: http://hea-www.cfa.harvard.edu/~kjg/kciao
+    license: Public
+    summary: A collection of adaptive binning routines

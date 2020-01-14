@@ -5,6 +5,7 @@ package:
 requirements:
     run:
         - ciao
+        - ciao-contrib
         - dmimggrad
         - dmimgtess
         - dmmaskstat
@@ -12,7 +13,13 @@ requirements:
         - dmscopy
         - pars2tab
         - resample_image
-
+        - cipt 
+        - colorcolor
+        - qocat
+        - statmap
+        - adaptivebin
+        - temperaturemap
+ 
 about:
     home: http://hea-www.cfa.harvard.edu/~kjg/kciao
     license: Public
