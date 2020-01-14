@@ -2,8 +2,8 @@
 
 PATH=${PATH}:/data/lenin2/Test/CIAO4.12/Conda/miniconda/bin
 
-ciaover=conda-ciao4.12b1a
-ciaourl=ftp://cxc.cfa.harvard.edu/pub/ctest_dl/test
+ciaover=ciao
+ciaourl=https://cxc.cfa.harvard.edu/conda/
 outdir=`pwd`/Out
 
 #
@@ -34,8 +34,10 @@ do
       $t
 done
 
-conda build --output-folder `pwd`/Out -c file://`pwd`/Out   \
-  -c ftp://cxc.cfa.harvard.edu/pub/ctest_dl/test/conda-ciao4.12b1a  zciao 
+conda build --output-folder `pwd`/Out \
+  -c file://`pwd`/Out   \
+  -c ${ciaourl}/${ciaover} \
+  zciao 
 
 
 conda index Out
