@@ -42,6 +42,7 @@ conda build --output-folder `pwd`/Out \
 
 conda index Out
 
+cipt ocat AdaptiveBin statmap ellipse_model TemperatureMap ColorColor
 
 
 ###conda remove -y -n ciao-4.12b1a pars2tab dmimgio resample_image
