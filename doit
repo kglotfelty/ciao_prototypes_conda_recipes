@@ -34,11 +34,6 @@ do
       $t
 done
 
-conda build --output-folder `pwd`/Out \
-  -c file://`pwd`/Out   \
-  -c ${ciaourl}/${ciaover} \
-  zciao 
-
 
 conda index Out
 
@@ -49,6 +44,12 @@ do
     -c file://${outdir} \
     $d
 done
+
+conda build --output-folder `pwd`/Out \
+  -c file://`pwd`/Out   \
+  -c ${ciaourl}/${ciaover} \
+  zciao 
+
 
 conda index Out
 

@@ -3,9 +3,7 @@ package:
     version: 0.0.1
     
 requirements:
-    run:
-        - ciao
-        - ciao-contrib
+    build:
         - dmimggrad
         - dmimgtess
         - dmmaskstat
@@ -13,13 +11,29 @@ requirements:
         - dmscopy
         - pars2tab
         - resample_image
-        - cipt 
+        - cipt
         - colorcolor
         - qocat
         - statmap
         - adaptivebin
         - temperaturemap
- 
+
+    run:
+        - ciao
+        - dmimggrad
+        - dmimgtess
+        - dmmaskstat
+        - dmradar
+        - dmscopy
+        - pars2tab
+        - resample_image
+        - cipt
+        - colorcolor
+        - qocat
+        - statmap
+        - adaptivebin
+        - temperaturemap
+
 about:
     home: http://hea-www.cfa.harvard.edu/~kjg/kciao
     license: Public
