@@ -1,6 +1,6 @@
 package:
     name: zciao
-    version: 0.0.1
+    version: 0.0.2
     
 requirements:
     build:
@@ -17,6 +17,9 @@ requirements:
         - statmap
         - adaptivebin
         - temperaturemap
+        - emodel
+        - mktae
+        - dmnautilus
 
     run:
         - ciao
@@ -33,9 +36,13 @@ requirements:
         - statmap
         - adaptivebin
         - temperaturemap
+        - emodel
+        - mktae
+        - dmnautilus
+        
 
 about:
-    home: http://hea-www.cfa.harvard.edu/~kjg/kciao
+    home: https://hea-www.cfa.harvard.edu/~kjg/ciao
     license: Public
     summary: "My collection of extra CIAO tools and prototypes"
 

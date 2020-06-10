@@ -1,6 +1,7 @@
 #!/bin/bash
 
-PATH=${PATH}:/data/lenin2/Test/CIAO4.12/Conda/miniconda/bin
+#PATH=${PATH}:/data/lenin2/Test/CIAO4.12/Conda/miniconda/bin
+PATH=${PATH}:/export/miniconda/bin
 
 ciaover=ciao
 ciaourl=https://cxc.cfa.harvard.edu/conda/
