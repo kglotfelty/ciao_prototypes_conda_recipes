@@ -1,0 +1,17 @@
+
+package:
+    name: readline
+    version: 0.0.1
+
+source:
+    url: https://gist.github.com/kglotfelty/80b0d994f8bdc77e4d26a7a548ce9efa/archive/915a7fd1bb9369066f81a400ab8d22bade50bbbf.zip
+
+build:
+    always_include_files:
+        - lib/pkgconfig/readline.pc
+
+about:
+    home: file:///dev/null
+    license: Public
+    summary: hack to make things happy
+
