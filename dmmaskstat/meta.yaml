@@ -10,6 +10,7 @@ requirements:
       - ciao
       - dmimgio
       - dmfilters
+      - readline_pc
 
     run:
       - ciao

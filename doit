@@ -10,6 +10,16 @@ outdir=`pwd`/Out
 #
 # Libs
 #
+
+
+conda build \
+  --output-folder ${outdir} \
+  -c ${ciaourl}/${ciaover} \
+  -c file://${outdir} \
+  readline_pc
+
+conda index Out
+
 for l in dmimgio dmfilters
 do
     conda build \

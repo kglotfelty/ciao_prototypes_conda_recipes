@@ -1,6 +1,6 @@
 
 package:
-    name: readline
+    name: readline_pc
     version: 0.0.1
 
 source:

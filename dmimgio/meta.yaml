@@ -8,6 +8,7 @@ source:
 requirements:
     build:
       - ciao
+      - readline_pc
       
 about:
     home: http://hea-www.cfa.harvard.edu/~kjg/kciao

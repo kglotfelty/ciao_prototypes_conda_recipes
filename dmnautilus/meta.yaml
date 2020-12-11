@@ -10,6 +10,7 @@ requirements:
     build:
       - ciao
       - dmimgio
+      - readline_pc
 
     run:
       - ciao
