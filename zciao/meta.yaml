@@ -1,44 +1,44 @@
 package:
     name: zciao
-    version: 0.0.2
+    version: 4.13.0
     
 requirements:
     build:
-        - dmimggrad
-        - dmimgtess
-        - dmmaskstat
-        - dmradar
-        - dmscopy
-        - pars2tab
-        - resample_image
-        - cipt
-        - colorcolor
-        - qocat
-        - statmap
-        - adaptivebin
-        - temperaturemap
-        - emodel
-        - mktae
-        - dmnautilus
+        - dmimggrad=4.13.0
+        - dmimgtess=4.13.0
+        - dmmaskstat=4.13.0
+        - dmradar=4.13.0
+        - dmscopy=4.13.0
+        - pars2tab=4.13.0
+        - resample_image=4.13.0
+        - cipt=4.13.0
+        - colorcolor=4.13.0
+        - qocat=4.13.0
+        - statmap=4.13.0
+        - adaptivebin=4.13.0
+        - temperaturemap=4.13.0
+        - emodel=4.13.0
+        - mktae=4.13.0
+        - dmnautilus=4.13.0
 
     run:
-        - ciao
-        - dmimggrad
-        - dmimgtess
-        - dmmaskstat
-        - dmradar
-        - dmscopy
-        - pars2tab
-        - resample_image
-        - cipt
-        - colorcolor
-        - qocat
-        - statmap
-        - adaptivebin
-        - temperaturemap
-        - emodel
-        - mktae
-        - dmnautilus
+        - ciao=4.13
+        - dmimggrad=4.13.0
+        - dmimgtess=4.13.0
+        - dmmaskstat=4.13.0
+        - dmradar=4.13.0
+        - dmscopy=4.13.0
+        - pars2tab=4.13.0
+        - resample_image=4.13.0
+        - cipt=4.13.0
+        - colorcolor=4.13.0
+        - qocat=4.13.0
+        - statmap=4.13.0
+        - adaptivebin=4.13.0
+        - temperaturemap=4.13.0
+        - emodel=4.13.0
+        - mktae=4.13.0
+        - dmnautilus=4.13.0
         
 
 about:

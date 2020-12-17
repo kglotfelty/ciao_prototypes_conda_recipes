@@ -1,19 +1,19 @@
 package:
     name: dmnautilus
-    version: 0.0.1
+    version: 4.13.0
 
 source:
     git_url: https://github.com/kglotfelty/dmnautilus.git
-    git_tag: master
+    git_tag: 4.13.0
 
 requirements:
     build:
-      - ciao
+      - ciao=4.13
       - dmimgio
       - readline_pc
 
     run:
-      - ciao
+      - ciao=4.13
       - cfitsio
       - readline
       - ncurses
@@ -28,4 +28,4 @@ build:
 about:
     home: http://hea-www.cfa.harvard.edu/~kjg/kciao
     license: Public
-    summary: Reproject an image to a new WCS by resampling integer pixel values
+    summary: Replacement for CIAOs dmnautilus tool with min threshold method.

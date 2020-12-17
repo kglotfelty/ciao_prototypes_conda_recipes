@@ -18,7 +18,7 @@ conda build \
   -c file://${outdir} \
   readline_pc
 
-conda index Out
+conda index $outdir
 
 for l in dmimgio dmfilters
 do
@@ -29,7 +29,7 @@ do
       $l
 done
 
-conda index Out
+conda index $outdir
 
 #
 # Tools
@@ -46,7 +46,7 @@ do
 done
 
 
-conda index Out
+conda index $outdir
 
 for d in emodel cipt colorcolor qocat statmap adaptivebin temperaturemap
 do 
@@ -62,7 +62,7 @@ conda build --output-folder `pwd`/Out \
   zciao 
 
 
-conda index Out
+conda index $outdir
 
 
 ###conda remove -y -n ciao-4.12b1a pars2tab dmimgio resample_image

@@ -1,23 +1,24 @@
 package:
     name: mktae
-    version: 0.0.1
+    version: 4.13.0
 
 source:
     git_url: https://github.com/kglotfelty/mktae.git
+    git_tag: 4.13.0
 
 requirements:
     build:
-      - ciao
+      - ciao=4.13
       - dmimgio
       - readline_pc
 
     run:
-      - ciao
+      - ciao=4.13
       - cfitsio
       - readline
       - ncurses
       
 about:
-    home: http://hea-www.cfa.harvard.edu/~kjg/kciao
+    home: https://github.com/kglotfelty/mktae/
     license: Public
     summary: Create Chandra exposure map in TDET coordinates

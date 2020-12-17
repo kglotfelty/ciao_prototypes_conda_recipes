@@ -1,26 +1,23 @@
 package:
     name: pars2tab
-    version: 0.0.1
+    version: 4.13.0
 
 source:
-    - git_url: https://github.com/kglotfelty/pars2tab.git
-      #git_tag: foobar
-    #- url: https://drive.google.com/file/d/1XjDyl0xvBkQAe4eOuEQGAVUqsFVrPLuP/view?usp=sharing
-    #  fn: pars2tab-0.0.1-regression_data.tar
-    #  md5: 1c7f518b18211c98a7e42ff597e034be
+    git_url: https://github.com/kglotfelty/pars2tab.git
+    git_tag: 4.13.0
 
 requirements:
     build:
-      - ciao
+      - ciao=4.13
       - readline_pc
 
     run:
-      - ciao
+      - ciao=4.13
       - cfitsio
       - readline
       - ncurses
       
 about:
-    home: http://hea-www.cfa.harvard.edu/~kjg/kciao
+    home: https://github.com/kglotfelty/pars2tab/
     license: Public
     summary: Convert a stack of parameter files to a table

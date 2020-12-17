@@ -1,18 +1,18 @@
 package:
     name: qocat
-    version: 0.0.1
+    version: 4.13.0
 
 source:
     git_url: https://github.com/kglotfelty/ocat
 
 requirements:
     build:
-      - ciao
+      - ciao=4.13
 
     run:
-      - ciao
+      - ciao=4.13
       
 about:
-    home: http://hea-www.cfa.harvard.edu/~kjg/kciao
+    home: https://github.com/kglotfelty/ocat/
     license: Public
     summary: Query Chandra observation catalog

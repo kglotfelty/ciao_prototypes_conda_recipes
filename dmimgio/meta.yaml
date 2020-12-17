@@ -1,16 +1,17 @@
 package:
     name: dmimgio
-    version: 0.0.1
+    version: 4.13.0
 
 source:
     git_url: https://github.com/kglotfelty/dmimgio.git
+    git_tag: 4.13.0
 
 requirements:
     build:
-      - ciao
+      - ciao=4.13
       - readline_pc
       
 about:
-    home: http://hea-www.cfa.harvard.edu/~kjg/kciao
+    home: https://github.com/kglotfelty/dmimgio/
     license: Public
-    summary: 'Convert a stack of parameter files to a table'
+    summary: I/O library to make handling 2D images easier
