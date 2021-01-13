@@ -4,7 +4,7 @@ package:
 
 source:
     git_url: https://github.com/kglotfelty/resample_image.git
-    git_tag: 4.13.0
+    git_rev: 4.13.0
 
 requirements:
     build:

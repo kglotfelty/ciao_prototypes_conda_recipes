@@ -56,8 +56,8 @@ do
     $d
 done
 
-conda build --output-folder `pwd`/Out \
-  -c file://`pwd`/Out   \
+conda build --output-folder ${outdir} \
+  -c file://${outdir} \
   -c ${ciaourl}/${ciaover} \
   zciao 
 
