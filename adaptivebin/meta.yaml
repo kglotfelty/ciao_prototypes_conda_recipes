@@ -1,10 +1,10 @@
 package:
     name: adaptivebin
-    version: 4.13.0
+    version: 4.13.1
 
 source:
     git_url: https://github.com/kglotfelty/AdaptiveBin
-    git_rev: 4.13.0
+    git_rev: 4.13.1
 
 build:
     noarch: python

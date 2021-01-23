@@ -1,13 +1,22 @@
 package:
     name: zciao
     version: 4.13.1
+
+build:
+    number: 4
+    always_include_files:
+      - binexe/dmnautilus
+      - bin/dmnautilus
+      - param/dmnautilus.par
+      - share/doc/xml/dmnautilus.xml
+
     
 requirements:
     build:
         - dmimggrad=4.13.0
         - dmimgtess=4.13.0
         - dmmaskstat=4.13.0
-        - dmradar=4.13.0
+        - dmradar=4.13.1
         - dmscopy=4.13.0
         - pars2tab=4.13.0
         - resample_image=4.13.0
@@ -15,7 +24,7 @@ requirements:
         - colorcolor=4.13.0
         - qocat=4.13.1
         - statmap=4.13.0
-        - adaptivebin=4.13.0
+        - adaptivebin=4.13.1
         - temperaturemap=4.13.1
         - emodel=4.13.0
         - mktae=4.13.0
@@ -26,7 +35,7 @@ requirements:
         - dmimggrad=4.13.0
         - dmimgtess=4.13.0
         - dmmaskstat=4.13.0
-        - dmradar=4.13.0
+        - dmradar=4.13.1
         - dmscopy=4.13.0
         - pars2tab=4.13.0
         - resample_image=4.13.0
@@ -34,12 +43,12 @@ requirements:
         - colorcolor=4.13.0
         - qocat=4.13.1
         - statmap=4.13.0
-        - adaptivebin=4.13.0
+        - adaptivebin=4.13.1
         - temperaturemap=4.13.1
         - emodel=4.13.0
         - mktae=4.13.0
         - dmnautilus=4.13.0
-        
+
 
 about:
     home: https://hea-www.cfa.harvard.edu/~kjg/ciao
