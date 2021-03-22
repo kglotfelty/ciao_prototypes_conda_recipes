@@ -1,6 +1,6 @@
 package:
     name: zciao
-    version: 4.13.3
+    version: 4.13.4
 
 build:
     number: 0
@@ -29,6 +29,7 @@ requirements:
         - emodel=4.13.0
         - mktae=4.13.0
         - dmnautilus=4.13.1
+        - dmimgproject2=4.13.1
 
     run:
         - ciao=4.13
@@ -48,7 +49,7 @@ requirements:
         - emodel=4.13.0
         - mktae=4.13.0
         - dmnautilus=4.13.1
-
+        - dmimgproject2=4.13.1
 
 about:
     home: https://hea-www.cfa.harvard.edu/~kjg/ciao
