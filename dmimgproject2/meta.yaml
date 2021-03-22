@@ -1,0 +1,25 @@
+package:
+    name: dmimgproject2
+    version: 4.13.1
+
+source:
+    git_url: https://github.com/kglotfelty/dmimgproject2.git
+    git_tag: 4.13.1
+
+requirements:
+    build:
+      - ciao=4.13
+      - dmimgio
+      - dmfilters
+      - readline_pc
+
+    run:
+      - ciao=4.13
+      - cfitsio
+      - readline
+      - ncurses
+      
+about:
+    home: https://github.com/kglotfelty/dmimgproject2/
+    license: Public
+    summary: Updated version of dmimgproject allowing projection along arbitrary axis.
