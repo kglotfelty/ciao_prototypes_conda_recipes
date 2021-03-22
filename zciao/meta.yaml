@@ -1,6 +1,6 @@
 package:
     name: zciao
-    version: 4.13.2
+    version: 4.13.3
 
 build:
     number: 0
@@ -16,7 +16,7 @@ requirements:
         - dmimggrad=4.13.0
         - dmimgtess=4.13.0
         - dmmaskstat=4.13.0
-        - dmradar=4.13.2
+        - dmradar=4.13.3
         - dmscopy=4.13.0
         - pars2tab=4.13.0
         - resample_image=4.13.0
@@ -35,7 +35,7 @@ requirements:
         - dmimggrad=4.13.0
         - dmimgtess=4.13.0
         - dmmaskstat=4.13.0
-        - dmradar=4.13.2
+        - dmradar=4.13.3
         - dmscopy=4.13.0
         - pars2tab=4.13.0
         - resample_image=4.13.0
