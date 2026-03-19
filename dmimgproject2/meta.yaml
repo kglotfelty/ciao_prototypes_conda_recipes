@@ -1,24 +1,24 @@
 package:
     name: dmimgproject2
-    version: 4.13.1
+    version: 4.18.0
 
 source:
     git_url: https://github.com/kglotfelty/dmimgproject2.git
-    git_tag: 4.13.1
+    git_branch: main
 
 requirements:
     build:
-      - ciao=4.13
+      - ciao=4.18.0
       - dmimgio
       - dmfilters
-      - readline_pc
+#      - readline_pc
 
-    run:
-      - ciao=4.13
-      - cfitsio
-      - readline
-      - ncurses
-      
+#    run:
+#      - ciao=4.18.0
+#      - cfitsio
+#      - readline
+#      - ncurses
+
 about:
     home: https://github.com/kglotfelty/dmimgproject2/
     license: Public

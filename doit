@@ -12,13 +12,14 @@ outdir=`pwd`/Out
 #
 
 
-conda build \
-  --output-folder ${outdir} \
-  -c ${ciaourl}/${ciaover} \
-  -c file://${outdir} \
-  readline_pc
+#~ conda build \
+  #~ --output-folder ${outdir} \
+  #~ -c ${ciaourl}/${ciaover} \
+  #~ -c file://${outdir} \
+  #~ readline_pc
 
-conda index $outdir
+#~ conda index $outdir
+
 
 for l in dmimgio dmfilters
 do
@@ -35,8 +36,8 @@ conda index $outdir
 # Tools
 #
 
-for t in dmimggrad dmimgtess dmmaskstat dmradar dmscopy mktae pars2tab \
-   resample_image dmnautilus 
+for t in dmimggrad dmimgtess dmmaskstat mktae pars2tab \
+   resample_image dmimgproject2
 do
     conda build \
       --output-folder ${outdir} \
@@ -48,8 +49,8 @@ done
 
 conda index $outdir
 
-for d in emodel cipt colorcolor qocat statmap adaptivebin temperaturemap
-do 
+for d in ccp emodel cipt qocat temperaturemap
+do
   conda build --output-folder ${outdir} \
     -c ${ciaourl}/${ciaover} \
     -c file://${outdir} \
@@ -59,7 +60,7 @@ done
 conda build --output-folder ${outdir} \
   -c file://${outdir} \
   -c ${ciaourl}/${ciaover} \
-  zciao 
+  zciao
 
 
 conda index $outdir
