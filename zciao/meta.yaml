@@ -10,41 +10,29 @@ requirements:
         - dmimggrad=4.18.0
         - dmimgtess=4.18.0
         - dmmaskstat=4.18.0
-        - dmradar=4.18.0
-        - dmscopy=4.18.0
         - pars2tab=4.18.0
         - resample_image=4.18.0
         - ccp=4.18.0
         - cipt=4.18.0
-        - colorcolor=4.18.0
         - qocat=4.18.0
-        - statmap=4.18.0
-        - adaptivebin=4.18.0
         - temperaturemap=4.18.0
         - emodel=4.18.0
         - mktae=4.18.0
-        - dmnautilus=4.18.0
         - dmimgproject2=4.18.0
+        - ciao=4.18.0
 
     run:
-#        - ciao=4.18.0
         - dmimggrad=4.18.0
         - dmimgtess=4.18.0
         - dmmaskstat=4.18.0
-#        - dmradar=4.18.0
-#        - dmscopy=4.18.0
         - pars2tab=4.18.0
         - resample_image=4.18.0
         - ccp=4.18.0
         - cipt=4.18.0
-#        - colorcolor=4.18.0
         - qocat=4.18.0
-#        - statmap=4.18.0
-#        - adaptivebin=4.18.0
         - temperaturemap=4.18.0
         - emodel=4.18.0
         - mktae=4.18.0
-#        - dmnautilus=4.18.0
         - dmimgproject2=4.18.0
 
 about:
