@@ -5,7 +5,7 @@ PATH=${PATH}:/export/miniconda/bin
 
 ciaover=ciao
 ciaourl=https://cxc.cfa.harvard.edu/conda/
-outdir=`pwd`/Out
+outdir=$(pwd)/Out
 
 #
 # Libs

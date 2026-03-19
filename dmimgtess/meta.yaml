@@ -10,6 +10,7 @@ requirements:
     build:
       - ciao=4.18.0
       - dmimgio
+      - pkg-config
 #      - readline_pc
 
 #    run:

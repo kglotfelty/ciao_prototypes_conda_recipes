@@ -9,6 +9,7 @@ source:
 requirements:
     build:
       - ciao=4.18.0
+      - pkg-config
 #      - readline_pc
 
 about:
