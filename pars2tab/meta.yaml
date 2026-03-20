@@ -4,7 +4,7 @@ package:
 
 source:
     git_url: https://github.com/kglotfelty/pars2tab.git
-    git_rev: 6a8e7971
+    git_branch: main
 
 requirements:
     build:
